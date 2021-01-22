@@ -1,18 +1,14 @@
 {
   "name": "nextjs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
     "http": "^0.0.1-security",
-    "next": "10.0.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
     "socket.io": "^3.1.0"
   }
 }
